@@ -4,4 +4,4 @@
 wechat-auto-publish 负责。本包本体只是提示词，不提供 CLI。
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.1"

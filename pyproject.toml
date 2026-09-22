@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opp-radar"
-version = "0.1.0"
+version = "1.0.1"
 description = "Opportunity radar for indie devs: prompts and workflow to scout and write article-length opportunity notes. Generation only — rendering and publishing live in wechat-auto-publish."
 readme = "README.md"
 requires-python = ">=3.9"
