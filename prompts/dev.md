@@ -4,7 +4,7 @@
 >
 > 这是仓库里的 **dev（开发者）领域**雷达。以后其他领域另建 `prompts/<领域>.md`，复用同一套工作目录约定；多个领域并存时，用自然语言告诉 agent 跑哪个领域即可。
 >
-> 渲染成公众号 HTML、推到公众号草稿箱属于**分发**，不在本提示词范围内，见 `prompts/wechat-publish.md`。
+> 渲染成公众号 HTML、推到公众号草稿箱属于**分发**，不在本提示词范围内，见独立项目 [wechat-auto-publish](https://github.com/baiyigali/wechat-auto-publish)。
 
 ---
 
