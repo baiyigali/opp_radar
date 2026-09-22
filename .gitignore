@@ -7,6 +7,14 @@ issues/
 # Python
 __pycache__/
 *.pyc
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
 .DS_Store
 
 # JetBrains
