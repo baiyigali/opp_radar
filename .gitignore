@@ -1,9 +1,6 @@
 # 本地凭据，绝不提交
 config.json
 
-# 每期产出（留在本地磁盘用于去重，不进版本库，避免封面图片撑爆仓库）
-issues/
-
 # Python
 __pycache__/
 *.pyc

@@ -5,14 +5,14 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "opp-radar"
 version = "0.1.0"
-description = "Opportunity radar for indie devs: render a WeChat-style article from Markdown and push it to your Official Account draft box."
+description = "Opportunity radar for indie devs: prompts and workflow to scout and write article-length opportunity notes. Generation only — rendering and publishing live in wechat-auto-publish."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
     { name = "程序员白大力" },
 ]
-keywords = ["wechat", "wechat-mp", "公众号", "markdown", "wechat-formatter", "publish", "indie-dev", "opportunity"]
+keywords = ["indie-dev", "opportunity", "prompt", "developer", "radar", "content-generation"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -22,16 +22,10 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Topic :: Office/Business",
     "Topic :: Text Processing :: Markup",
 ]
-dependencies = [
-    "wechat-formatter",
-    "wechat-publish",
-]
-
-[project.scripts]
-opp-radar = "opp_radar.cli:main"
+# 本包只含提示词，不依赖渲染/发布库（它们在 wechat-auto-publish 里）
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/baiyigali/opp_radar"
