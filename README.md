@@ -35,15 +35,11 @@ wechat-auto-publish draft "<主名>.md" "<主名>.png" "<标题>" "<摘要>"
 
 `examples/开发者机会观察-第5期.md` + `.png` 是一期纯生成产物的样子（科技风经典蓝的最终排版由 wechat-auto-publish 渲染）。
 
-## 设计原则
+## 相关项目
 
-- **提示词只讲"做什么"**，调度/定时是外层平台壳，不写进提示词；
-- **生成与分发分离**：opp-radar 出文本，wechat-auto-publish 负责渲染和发布；
-- 文章产出与代码仓库隔离，不随仓库分发。
-
-## 配套项目
-
-生成完文章后，想一键渲染成公众号排版并推到草稿箱？看 [wechat-auto-publish](https://github.com/baiyigali/wechat-auto-publish)——它把 wechat-formatter 和 wechat-publish 串成一条命令。
+- [wechat-auto-publish](https://github.com/baiyigali/wechat-auto-publish)：最外层发布流水线，一条命令把排版、推草稿串起来
+- [wechat-formatter](https://github.com/baiyigali/wechat-formatter)：Markdown → 公众号内联样式 HTML（科技风/经典蓝）
+- [wechat-publish](https://github.com/baiyigali/wechat-publish)：公众号草稿箱接口，图片自动转存微信 CDN
 
 ## 技术交流
 
@@ -55,10 +51,24 @@ wechat-auto-publish draft "<主名>.md" "<主名>.png" "<标题>" "<摘要>"
 
 ## 项目赞助
 
-本项目由微信公众号 **「程序员白大力」** 提供赞助，感谢支持：
+本项目由以下微信公众号提供赞助，感谢支持：
+
+**「程序员白大力」** —— 法律科技 / 自动化内容创作
 
 <p align="center">
   <img src="docs/images/wechat-official-account-qr.png" alt="程序员白大力公众号二维码" width="240" />
+</p>
+
+**「法啊」** —— 法律科普 / 普法内容
+
+<p align="center">
+  <img src="docs/images/fa-official-account-qr.png" alt="法啊公众号二维码" width="240" />
+</p>
+
+**「极速法考」** —— 法考备考 / 法律职业资格考试
+
+<p align="center">
+  <img src="docs/images/jisu-fakao-official-account-qr.png" alt="极速法考公众号二维码" width="240" />
 </p>
 
 ## License
