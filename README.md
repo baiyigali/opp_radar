@@ -38,7 +38,7 @@ wechat-auto-publish draft "<主名>.md" "<主名>.png" "<标题>" "<摘要>"
 ## 相关项目
 
 - [wechat-auto-publish](https://github.com/baiyigali/wechat-auto-publish)：最外层发布流水线，一条命令把排版、推草稿串起来
-- [wechat-formatter](https://github.com/baiyigali/wechat-formatter)：Markdown → 公众号内联样式 HTML（科技风/经典蓝）
+- [wechat-formatter](https://github.com/baiyigali/wechat-formatter)：Markdown → 公众号内联样式 HTML
 - [wechat-publish](https://github.com/baiyigali/wechat-publish)：公众号草稿箱接口，图片自动转存微信 CDN
 
 ## 技术交流
